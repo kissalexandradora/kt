@@ -1,0 +1,30 @@
+{
+    "mainPage": {
+        "selector": ".page_wrap",
+        "childred": {
+            "header": {
+                "selector": "header",
+                "childred": {
+                    "logo": ".logo",
+                    "language": {
+                        "selector": ".translate",
+                        "childred": {
+                            "selectedLanguage": "div"
+                        }
+                    },
+                    "loginButton": "[href='/login']",
+                    "userProfile": ".user"
+                }
+            },
+            "welcomeMessage": ".title h2"
+        },
+        "loginForm": {
+            "selector": "#login_form",
+            "childred": {
+                "usernameField": "#username",
+                "passwordField": "#password",
+                "loginButton": "#login_button"
+            }
+        }
+    }
+}
