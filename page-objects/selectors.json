@@ -1,14 +1,14 @@
 {
     "mainPage": {
         "selector": ".page_wrap",
-        "childred": {
+        "children": {
             "header": {
                 "selector": "header",
-                "childred": {
+                "children": {
                     "logo": ".logo",
                     "language": {
                         "selector": ".translate",
-                        "childred": {
+                        "children": {
                             "selectedLanguage": "div"
                         }
                     },
@@ -20,7 +20,7 @@
         },
         "loginForm": {
             "selector": "#login_form",
-            "childred": {
+            "children": {
                 "usernameField": "#username",
                 "passwordField": "#password",
                 "loginButton": "#login_button"
